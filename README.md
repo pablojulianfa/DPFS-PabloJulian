@@ -1,5 +1,5 @@
-# !PhoneHouse 
-El proyecto del sitio web de !PhoneHouse tiene como objetivo principal ofrecer una experiencia de compra ágil y moderna para los amantes de la tecnología Apple en San Rafael, Mendoza, y sus alrededores. A través de esta plataforma, los clientes podrán adquirir una variedad de productos de la marca Apple, incluyendo:
+# ¡PhoneHouse 
+El proyecto del sitio web de ¡PhoneHouse tiene como objetivo principal ofrecer una experiencia de compra ágil y moderna para los amantes de la tecnología Apple en San Rafael, Mendoza, y sus alrededores. A través de esta plataforma, los clientes podrán adquirir una variedad de productos de la marca Apple, incluyendo:
 - iPhones: Los últimos modelos de celulares de Apple con tecnología avanzada.
 - Accesorios: AirPods, cargadores, fundas, y otros complementos para potenciar el uso de sus dispositivos.
 - Apple Watchs y Macs: Relojes inteligentes y computadoras de alto rendimiento diseñados para una experiencia tecnológica superior.
@@ -11,7 +11,17 @@ Para satisfacer a esta audiencia, el sitio web ofrecerá contenido detallado sob
 ###  Páginas de Referencia
 - [¡Hello](https://ihellostore.com.ar/)
 - [ArtiFact](https://www.artifactargentina.com/modelos-macbook-air-y-pro)
-- [!Phone](https://www.apple.com/iphone/)
+- [¡Phone](https://www.apple.com/iphone/)
 - [Samsumg](https://www.samsung.com/ar/)
 - [Motorola](https://www.motorola.com.ar/)
+
+### Trello
+[Trello](https://trello.com/b/vZnMhWx3/dpfspablojulianfarre)
+
+
+
+
+
+
 ### Juan Pablo Julián Farré 
+

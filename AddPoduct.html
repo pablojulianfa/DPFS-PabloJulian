@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>¡PhoneHouse</title>
+
+    <!-- CSS -->
+<link rel="stylesheet" href="general.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/58eab6a6c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Navbar -->
+<nav >
+    <div >
+    <!-- reemplazar por CSS -->
+        <a href="http://127.0.0.1:3000/home.html" ><img src="./desing/LOGO CASA SIN FONDO MEJORADO.png" width="100px" alt="Logo"/></a>
+
+        <h2>!PhoneHouse</h2>
+        <ul type="none"> 
+            <li>Apple</li>
+            <li>Accesorios</li>
+            <li>Samsung</li>
+            <li>Usados</li>
+        </ul>
+    
+    </div>
+    <div>
+        <ul type="none"> <!-- reemplazar por CSS -->
+            <li><i class="fa-solid fa-circle-user"></i></li>
+            <li><i class="fa-solid fa-cart-plus"></i></li>
+        </ul>
+    </div>
+</nav>
+ <!-- Main -->
+  <main>
+    <h1>Nuevo Producto</h1>
+    <form action="/" method="post"> 
+        <div>
+           <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="!Phone 16 Pro Max">
+        </div>
+
+        <div>
+            <label for="image">Imagen</label>
+            <input type="file" accept="image/*" multiple>
+        </div>
+
+        <div>
+            <label for="descripcion">Descripción</label>
+             <textarea name="descripcion" id="descripcion" placeholder="Memoria RAM: 8 GB..."></textarea>
+         </div>
+
+         <div>
+            <label for="category">Categoría</label>
+            <select name="category" id="category">
+                <option selected disabled>Selecciona una opción</option>
+                <option value="¡phone">¡Phone</option>
+                <option value="macbook">MacBook</option>
+                <option value="airpods">Airpods</option>
+                <option value="applewatch">Apple Watch</option>
+            </select>
+         </div>
+
+         <div>
+            <!-- revisar porque no se pintan los colores y como arreglar que sea adptable a cualquier dispositivo -->
+            <label for="colors">Color</label>
+            <select name="colors" id="colors">
+                <option selected disabled>Selecciona una opción</option>
+                <option value="#ffffff">Blanco</option>
+                <option value="#000000">Negro</option>
+                <option value="#1fa357">verde</option>
+                <option value="#fa73ee">Rosa</option>
+            </select>
+         </div>
+
+         <div>
+            <label for="price">Precio</label>
+            <input type="number" name="price" id="price">
+         </div>
+
+         <div>
+            <label for="aviable">Disponible</label>
+            <input type="checkbox" name="aviable" id="aviable">
+         </div>
+
+         <button type="submit">Crear</button>
+    </form>
+  </main>
+  <!-- Footer -->
+   <footer>
+    <h3><a href="https://www.instagram.com/iphone.house.sr/"> Instagram</a> </h3>
+    <ul type="none">
+        <li>
+            <a href="https://google.com.ar" target="blanck">Link 1</a>
+            <links1></links1>
+        </li>
+        <li>
+            <a href="https://google.com.ar" target="blanck">Link 2</a>
+            <links2></links2>
+        </li>
+        <li>
+            <a href="https://google.com.ar" target="blanck">Link 3</a>
+            <links3></links3>
+        </li>
+        <li>
+            <a href="https://google.com.ar" target="blanck">Link 4</a>
+            <links4></links4>
+        </li>
+    </ul>
+    
+    <ul type="none">
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+    </ul>
+
+   </footer>
+</body>
+</html>
