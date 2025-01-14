@@ -1,0 +1,33 @@
+:root {
+    --color1: #ffc000 ;
+   --color2: #c9eb33 ;
+    --color3: #fd0300 ;
+    --color4: #000000 ;
+    --color5: #008ef9 ;
+    --color6: #ff86a9 ;
+    --base: #faf7f8 ;
+}
+.banner {
+    background-image: url(./images/banner.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.banner button {
+background-color: #faf7f8;
+color: #000000;
+font-size: 24px;
+
+}
+.card {
+    border: 1px solid grey;
+    width: 280px;
+}
+.card img{
+height: 200px;
+}
+
+.btn {
+    background-color: var(--base);
+    font-size: 20px;
+}

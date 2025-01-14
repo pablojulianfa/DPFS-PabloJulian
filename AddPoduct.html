@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>¡PhoneHouse</title>
-
-    <!-- CSS -->
-<link rel="stylesheet" href="general.css">
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/58eab6a6c8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<!-- Navbar -->
-<nav >
-    <div >
-    <!-- reemplazar por CSS -->
-        <a href="http://127.0.0.1:3000/home.html" ><img src="./desing/LOGO CASA SIN FONDO MEJORADO.png" width="100px" alt="Logo"/></a>
-
-        <h2>!PhoneHouse</h2>
-        <ul type="none"> 
-            <li>Apple</li>
-            <li>Accesorios</li>
-            <li>Samsung</li>
-            <li>Usados</li>
-        </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>¡PhoneHouse</title>
     
-    </div>
-    <div>
-        <ul type="none"> <!-- reemplazar por CSS -->
-            <li><i class="fa-solid fa-circle-user"></i></li>
-            <li><i class="fa-solid fa-cart-plus"></i></li>
-        </ul>
-    </div>
-</nav>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="./general.css">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/58eab6a6c8.js" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__left">
+        
+            <a href="http://127.0.0.1:3000/home.html" ><img class="navbar__logo" src="./desing/LOGO CASA SIN FONDO MEJORADO.png" alt="Logo"/></a>
+    
+            <a href="http://127.0.0.1:3000/home.html" > <h2>!PhoneHouse </h2> </a>
+            <ul class="left__icon"> 
+                <li> <a href="http://127.0.0.1:3000/home.html"> Apple</a> </li>
+                <li> <a href="http://127.0.0.1:3000/home.html"> Accesorios</a> </li>
+                <li> <a href="http://127.0.0.1:3000/home.html"> Samsung</a></li>
+                <li> <a href="http://127.0.0.1:3000/home.html"> Usados</a></li>
+            </ul>
+        
+        </div>
+        <div class="navbar__right">
+            <ul class="right__icon">
+                <li><i class="fa-solid fa-circle-user"></i></li>
+                <li><i class="fa-solid fa-cart-plus"></i></li>
+            </ul>
+        </div>
+    </nav>
  <!-- Main -->
   <main>
     <h1>Nuevo Producto</h1>
@@ -90,9 +96,11 @@
     </form>
   </main>
   <!-- Footer -->
-   <footer>
-    <h3><a href="https://www.instagram.com/iphone.house.sr/"> Instagram</a> </h3>
-    <ul type="none">
+  <footer class="footer">
+
+    <a href="http://127.0.0.1:3000/home.html" ><img class="navbar__logo" src="./desing/LOGO CASA SIN FONDO MEJORADO.png" alt="Logo"/></a>
+    
+    <ul>
         <li>
             <a href="https://google.com.ar" target="blanck">Link 1</a>
             <links1></links1>
@@ -111,8 +119,8 @@
         </li>
     </ul>
     
-    <ul type="none">
-        <li><i class="fa-brands fa-instagram"></i></li>
+    <ul>
+        <li> <a href="https://www.instagram.com/iphone.house.sr/"> <i class="fa-brands fa-instagram"></i></a> </li>
         <li><i class="fa-brands fa-whatsapp"></i></li>
     </ul>
 

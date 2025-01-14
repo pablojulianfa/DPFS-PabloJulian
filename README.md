@@ -15,6 +15,13 @@ Para satisfacer a esta audiencia, el sitio web ofrecerá contenido detallado sob
 - [Samsumg](https://www.samsung.com/ar/)
 - [Motorola](https://www.motorola.com.ar/)
 
+### Colores
+
+.color1 {#041122};
+
+
+
+
 ### Trello
 [Trello](https://trello.com/b/vZnMhWx3/dpfspablojulianfarre)
 

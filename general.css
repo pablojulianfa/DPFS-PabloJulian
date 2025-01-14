@@ -1,4 +1,55 @@
+:root {
+    --color1: #ffc000 ;
+   --color2: #c9eb33 ;
+    --color3: #fd0300 ;
+    --color4: #000000 ;
+    --color5: #008ef9 ;
+    --color6: #ff86a9 ;
+    --base: #faf7f8 ;
+}
 body {
-    background-color: azure;
-    color: black;
+    background-color: var(--base);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--color4);
+    text-decoration: none;
+}
+.navbar__left {
+    background-color: #c9eb33;
+    color: var(#000000)
+}
+
+.left__icon {
+    color: var(--color4);
+    font-size: 24px;
+}
+
+.navbar__right {
+    background-color:#008ef9;
+    color: var(#faf7f8)
+}
+
+.right__icon {
+    color: var(--base);
+    font-size: 24px;
+}
+
+.navbar__logo {
+    width: 100px;
+}
+
+
+.footer {
+    background-color: var(--color2);
+    color: var(--color4);
+}
+
+.footer a {
+    font-size: 24px;
 }
