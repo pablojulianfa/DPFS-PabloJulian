@@ -7,6 +7,14 @@
     --color6: #ff86a9 ;
     --base: #faf7f8 ;
 }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 body {
     background-color: var(--base);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -22,34 +30,76 @@ a {
 }
 .navbar__left {
     background-color: #c9eb33;
-    color: var(#000000)
+    color: #000;
+    font-family:monospace;
+    font-size: 70%;
+    display: flex;
+    justify-content:left ;
+    padding: 1% 5%;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    height: 60px;
 }
 
 .left__icon {
     color: var(--color4);
-    font-size: 24px;
-}
+    font-size: 70%;
+    display: flex;
+    gap: 12px;
+    }
 
-.navbar__right {
-    background-color:#008ef9;
-    color: var(#faf7f8)
-}
+    @media (min-width:400px){
+        .left__icon {
+            font-size: 95%;
+        }
+        }
 
 .right__icon {
+    background-color:#008ef9;
     color: var(--base);
-    font-size: 24px;
+    font-size: 18px;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    gap: 10px;
+    height: 60px;
 }
 
 .navbar__logo {
-    width: 100px;
+ width: 40px;
 }
 
 
 .footer {
+    margin-top: 20px;
     background-color: var(--color2);
     color: var(--color4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.link__¡phonehouse {
+    display: none;
 }
 
 .footer a {
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.social__icon {
+    display: flex;
+    font-size: 2rem;
+    gap: 10px;
+}
+
+@media (min-width:400px){
+.link__¡phonehouse {
+    display: block;
+}
 }

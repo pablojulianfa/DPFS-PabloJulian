@@ -32,13 +32,11 @@
                 <li> <a href="http://127.0.0.1:3000/home.html"> Usados</a></li>
             </ul>
         
-        </div>
-        <div class="navbar__right">
             <ul class="right__icon">
                 <li><i class="fa-solid fa-circle-user"></i></li>
                 <li><i class="fa-solid fa-cart-plus"></i></li>
             </ul>
-        </div>
+        
     </nav>
  <!-- Main -->
   <main>
@@ -73,13 +71,21 @@
          <div>
             <!-- revisar porque no se pintan los colores y como arreglar que sea adptable a cualquier dispositivo -->
             <label for="colors">Color</label>
-            <select name="colors" id="colors">
+            <input type="color" name="colors" id="color">
+            <!-- <select name="colors" id="colors">
                 <option selected disabled>Selecciona una opción</option>
                 <option value="#ffffff">Blanco</option>
                 <option value="#000000">Negro</option>
                 <option value="#1fa357">verde</option>
-                <option value="#fa73ee">Rosa</option>
+                <option value="#fa73ee">Rosa</option> -->
             </select>
+            
+            <div>
+                <label for="name">Nombre del Color</label>
+                 <input type="text" name="name" id="name" placeholder="verde azulado">
+             </div>
+             <!-- revisar si está bien el ID -->
+
          </div>
 
          <div>
