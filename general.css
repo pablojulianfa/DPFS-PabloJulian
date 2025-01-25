@@ -28,6 +28,13 @@ a {
     color: var(--color4);
     text-decoration: none;
 }
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    font-size: 110%;
+}
+
 .navbar__left {
     background-color: #c9eb33;
     color: #000;
@@ -51,7 +58,10 @@ a {
 
     @media (min-width:400px){
         .left__icon {
-            font-size: 95%;
+            font-size: 0.75rem;
+        }
+        .navbar__left {
+            font-size: 1rem;
         }
         }
 
