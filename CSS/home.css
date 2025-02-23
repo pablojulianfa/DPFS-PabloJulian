@@ -8,7 +8,7 @@
     --base: #faf7f8 ;
 }
 .banner {
-    background-image: url(./images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     height: 120px;
     background-size: cover;
     font-size: 70%;
@@ -31,7 +31,6 @@
     border-radius: 5px;
     box-shadow: 10px 5px 5px grey;
 }
-
 
 .extrainformation ul {
     display: flex;

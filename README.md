@@ -17,10 +17,16 @@ Para satisfacer a esta audiencia, el sitio web ofrecerá contenido detallado sob
 
 ### Colores
 
-.color1 {#041122};
+.color1: #ffc000 ;
+.color2: #c9eb33 ;
+.color3: #fd0300 ;
+.color4: #000000 ;
+.color5: #008ef9 ;
+.color6: #ff86a9 ;
+.base: #faf7f8 ;
 
-
-
+### Wireframe
+https://miro.com/app/board/uXjVLySBCU0=/
 
 ### Trello
 [Trello](https://trello.com/b/vZnMhWx3/dpfspablojulianfarre)
@@ -29,6 +35,13 @@ Para satisfacer a esta audiencia, el sitio web ofrecerá contenido detallado sob
 
 
 
-
 ### Juan Pablo Julián Farré 
+
+
+
+
+
+
+
+
 
