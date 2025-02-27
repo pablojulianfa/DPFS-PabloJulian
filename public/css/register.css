@@ -1,0 +1,43 @@
+:root {
+    --color1: #ffc000 ;
+   --color2: #c9eb33 ;
+    --color3: #fd0300 ;
+    --color4: #000000 ;
+    --color5: #008ef9 ;
+    --color6: #ff86a9 ;
+    --base: #faf7f8 ;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form {
+    background-color: gainsboro;
+    padding: 20px;
+    width: 80%;
+    max-width: 550px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.group__form { 
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-bottom: 5px;
+
+}
+
+.group__form input {
+    padding: 5px;
+}
+.rememberme {
+    font-size: 1.2 rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}

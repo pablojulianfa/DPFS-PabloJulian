@@ -3,23 +3,19 @@ const path = require("path")
 const app = express();
 const port = 4000
 
+const indexRouter = require("./routes/index.routes");
+const usersRoutes = require("./routes/users.routes");
+
+//View engine
+app.set('view engine','ejs')
+app.set("views",path.join(__dirname, "views"))
+
+//recursos estáticos o públicos
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.get("/",(req, res)=> {
-    res.sendFile(path.join(__dirname, "views" ,"home.html"))
-});
+app.use('/',indexRouter)
+app.use('/users', usersRoutes);
 
-app.get("/login",(req, res)=> {
-    res.sendFile(path.join(__dirname, "views" ,"login.html"))
-});
-
-app.get("/register",(req, res)=> {
-    res.sendFile(path.join(__dirname, "views" ,"register.html"))
-});
-
-app.get("/new-product",(req, res)=> {
-    res.sendFile(path.join(__dirname, "views" ,"addProduct.html"))
-});
 
 app.listen(port,()=>console.log("Servidor corriendo en http://localhost:" + port))

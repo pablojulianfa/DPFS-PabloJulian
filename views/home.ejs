@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+
+<%- include('./partials/head.ejs', {style:'home', page:"!"}) %>
+
+<body>
+    <!-- Navbar -->
+    
+<%- include('./partials/navbar.ejs') %>
+
+    <!-- Main -->
+    <main>
+        <section class="banner">
+            <!-- Aqui va un carrousel (imagen, texto y botón) -->
+            <h3>Invertí en un !Phone y que tu dinero no se desvalorice</h3>
+            <button class="btn__calltoaction">Ver más</button>
+        </section>
+        
+        <section class="extrainformation">
+            <ul>
+                <li> <b>Soporte</b> y asesoramiento</li>
+                <li> <b>Envíos</b> con programa de confianza</li>
+                <li> <b>Garantía</b> asegurada</li>
+                <li> <b>Múltiples</b> formas de pago</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Nuestros Productos</h3>
+        </section>
+        <section>
+            <!-- remplazar por CSS -->
+            <input type="text" placeholder="¡Phone16...">
+        </section>
+        <section>
+            <p>barra selectora de precio</p>
+        </section>
+        <section>
+            <div class="productos">
+                
+                <% for( let index = 0; index <9 ; index++ ) { %>
+                
+                    <article class="card">
+                        <img src="../images/productos/!Phone 13- Rosa.webp" height="200" alt="product image">
+                        <div>
+                            <h4>!Phone 13 - Rosa</h4>
+                            <p> $500</p>
+                        </div>
+                    </article>
+
+                <% } %>
+                
+                
+            </div>
+            <button class="btn"> Ver más </button>
+        </section>
+    </main> 
+
+<%- include('./partials/footer.ejs') %>
+
+</body>
+
+</html>
