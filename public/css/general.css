@@ -60,7 +60,7 @@ a:hover{
     background-color: #c9eb33;
     color: #000;
     font-family:monospace;
-    font-size: 70%;
+    font-size: 1.2rem;
     display: flex;
     justify-content:left ;
     padding: 1% 5%;
@@ -72,17 +72,18 @@ a:hover{
 
 .left__icon {
     color: var(--color4);
-    font-size: 70%;
+    font-size: 1.2rem;
     display: flex;
-    gap: 12px;
+    gap: 50px;
+    margin-left: 60px;
     }
 
-    @media (min-width:400px){
+    @media (max-width:400px){
         .left__icon {
-            font-size: 0.75rem;
+            font-size: 1.5rem;
         }
         .navbar__left {
-            font-size: 1rem;
+            font-size: 0.75rem;
         }
         }
 
@@ -123,7 +124,7 @@ a:hover{
         top: 60px;
         right: -100%;
         width: 100px;
-        height: 100px;
+        height: 220px;
         background-color:#c9eb337e;
         display: flex;
         flex-direction: column;

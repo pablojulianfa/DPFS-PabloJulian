@@ -34,10 +34,11 @@ margin-bottom: 5px;
 .group__form input {
     padding: 5px;
 }
-.rememberme {
+.aviable {
     font-size: 1.2 rem;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     margin-top: 5px;
 }
+

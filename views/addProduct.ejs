@@ -12,24 +12,24 @@
 
  <!-- Main -->
   <main>
-    <h1>Nuevo Producto</h1>
-    <form action="/" method="post"> 
-        <div>
+    <h1 class="title" >Nuevo Producto</h1>
+    <form class="form" action="/" method="post"> 
+        <div class="group__form">
            <label for="name">Nombre</label>
             <input type="text" name="name" id="name" placeholder="!Phone 16 Pro Max">
         </div>
 
-        <div>
+        <div class="group__form">
             <label for="image">Imagen</label>
             <input type="file" accept="image/*" multiple>
         </div>
 
-        <div>
+        <div class="group__form">
             <label for="descripcion">Descripción</label>
              <textarea name="descripcion" id="descripcion" placeholder="Memoria RAM: 8 GB..."></textarea>
          </div>
 
-         <div>
+         <div class="group__form">
             <label for="category">Categoría</label>
             <select name="category" id="category">
                 <option selected disabled>Selecciona una opción</option>
@@ -40,19 +40,14 @@
             </select>
          </div>
 
-         <div>
-            <!-- revisar porque no se pintan los colores y como arreglar que sea adptable a cualquier dispositivo -->
+         <div class="group__form">
+        
             <label for="colors">Color</label>
             <input type="color" name="colors" id="color">
-            <!-- <select name="colors" id="colors">
-                <option selected disabled>Selecciona una opción</option>
-                <option value="#ffffff">Blanco</option>
-                <option value="#000000">Negro</option>
-                <option value="#1fa357">verde</option>
-                <option value="#fa73ee">Rosa</option> -->
+         
             </select>
             
-            <div>
+            <div class="group__form">
                 <label for="name">Nombre del Color</label>
                  <input type="text" name="name" id="name" placeholder="verde azulado">
              </div>
@@ -60,17 +55,17 @@
 
          </div>
 
-         <div>
+         <div class="group__form">
             <label for="price">Precio</label>
             <input type="number" name="price" id="price">
          </div>
 
-         <div>
+         <div class="aviable">
             <label for="aviable">Disponible</label>
             <input type="checkbox" name="aviable" id="aviable">
          </div>
 
-         <button type="submit">Crear</button>
+         <button class="btn" type="submit">Crear</button>
     </form>
   </main>
   <!-- Footer -->
