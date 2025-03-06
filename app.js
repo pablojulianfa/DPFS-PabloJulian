@@ -5,6 +5,7 @@ const port = 4000
 
 const indexRouter = require("./routes/index.routes");
 const usersRoutes = require("./routes/users.routes");
+const productsRoutes = require("./routes/products.routes");
 
 //View engine
 app.set('view engine','ejs')
@@ -16,6 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use('/',indexRouter)
 app.use('/users', usersRoutes);
+app.use('/products', productsRoutes);
 
 
 app.listen(port,()=>console.log("Servidor corriendo en http://localhost:" + port))

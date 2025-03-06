@@ -7,8 +7,8 @@ router.get("/login",usersControllers.getLogin);
 //Vista del register
 router.get("/register",usersControllers.getRegister);
 
-// Vista new product
+// // Vista new product
 
-router.get("/addProduct",usersControllers.getaddProduct);
+// router.get("/addProduct",usersControllers.getaddProduct);
 
 module.exports=router;
